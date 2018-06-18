@@ -1,19 +1,17 @@
-.logo{
-    width: 15vw;
-}
 .carousel-caption {
     color: white;
     background: rgba(110, 150, 200, 0.7); 
 }
 .card{
      margin: 2%;
-     width: 22rem;
-     height: 29rem;
 }
-.card-deck{
-    justify-content: center;
+.card-body{
+    font-size: 80%;
+    background: rgba(110, 150, 200, 0.7);
 }
-
+.btn{
+    font-size: 90%;
+}
 .carousel-inner {
     min-width: 300px;
     width: 69.5rem;
@@ -25,11 +23,22 @@
 .carousel-control-prev {
     margin-left: 13%; 
 }
-.img-top{
-    width: 40%;
-    float: left;
-    margin: 1%;
-}
+
 footer{
     text-align: center;
+    background: rgba(110, 150, 180, 1);
+    padding: 2%
+}
+.navbar{
+    font-size:120%;
+    background: rgba(110, 150, 180, 1);
+}
+.nav a{
+    color: black;
+} 
+main{
+    background: rgba(110, 150, 200, 0.3);
+}
+.img-top{
+    width: 54vw;
 }
