@@ -35,10 +35,38 @@ footer{
 }
 .nav a{
     color: black;
+    font-size: 100%;
 } 
 main{
     background: rgba(110, 150, 200, 0.3);
 }
 .img-top{
     width: 54vw;
+}
+h2{
+    font-size: 150%;
+}
+
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+.img-telef{
+    width: 54vw;
+}
+.contacts{
+    font-size: 90%;
 }
